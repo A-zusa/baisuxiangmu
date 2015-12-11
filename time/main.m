@@ -159,9 +159,7 @@ void interval(){
     NSDateComponents *components = [calendar components:unit fromDate:date1 toDate:date options:0];
     
     NSLog(@"%@", components);
-    
-    NSLog(@"--%@", )
-    
+    //删除bug
 }
 
 
